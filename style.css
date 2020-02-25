@@ -1,0 +1,57 @@
+body {
+	background: #ED617F;
+}
+
+.container {
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	background: transparent;
+}
+
+.button {
+	width: 40pt;
+	height: 40pt;
+	font-size: 25pt;
+	font-family: Comic Sans MS;
+	margin: 2pt;
+	border: none;
+	border-radius: 0.5em;
+	color: white;
+	cursor: pointer;
+	background: brown;
+	opacity: .7;
+}
+
+.button:hover{
+	width: 40pt;
+	height: 40pt;
+	font-size: 30pt;
+	margin: 2pt;
+	border: none;
+	border-radius: 0.9em;
+	color: white;
+	cursor: pointer;
+	background: #008087;
+}
+
+.hasil {
+	width: 190pt;
+	height: 40pt;
+	border: none;
+	border-radius: 0.4em;
+	color: black;
+	outline: none;
+	font-size: 35pt;
+	font-family: Comic Sans MS;
+	text-align: center;
+	background: brown;
+	opacity: .9;
+}
+
+.text {
+	text-align: center;
+	font-size: 10pt;
+	font-family: Comic Sans MS;
+}
